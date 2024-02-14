@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class LinearInterpolation : MonoBehaviour
 {
-    // In this case, result = 4
-    float result = Mathf.Lerp(3f, 5f, 0.5f);
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // In this case, result = 8
+    float result = Mathf.Lerp(6f, 10f, 0.5f);
 
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
+
+    
 }
