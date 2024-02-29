@@ -14,12 +14,12 @@ public class LinearInterpolation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Component = Mathf.Lerp(Component.intensity, 8f, 0.5f);
+         
     }
 
     private void LateUpdate()
     {
-        Component.intensit = Mathf.Lerp(Component.intensity, 8f, 0.5f * Time.deltaTime);
+        
     }
 
 
